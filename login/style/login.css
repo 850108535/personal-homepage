@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@font-face {
+    font-family: Teko;
+    src: url(../../font/Teko-Regular.ttf);
+}
+
+.box{
+    display: flex;
+    width:100vw;
+    height:100vh;
+}
+
+.interface{
+    width:30%;
+    margin: auto;
+    display: flex;
+    padding-left: 15px;
+    background: #3b3b3b;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.interface-l{
+    width:75%;
+    padding: 15px 0px;
+}
+.interface-l h2{
+    font-weight: normal;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.import{ display: flex; justify-content: space-between; }
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.user-pass{ width: 48%; }
+.user-pass span{
+    display: block;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.user-pass input{
+    width:100%;
+    height:30px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+.interface-r{
+    width:20%;
+    background: #224e79;
+    position: absolute;
+    right:0;
+    top:0;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.submit{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border: none;
+    background: none;
+    z-index: 99;
+}
+.int-pic{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+.int-pic img{
+    height:80px;
+}
+.interface-r span{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-family: Teko;
+}
+.circle{
+    width:0px;
+    height:100%;
+    background: #2565a4;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all .5s;
+}
+.interface-r:hover .circle{
+    width:100%;
+    height:100%;
+    border-radius: 0;
+    opacity: 1;
+}

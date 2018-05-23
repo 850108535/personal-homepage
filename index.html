@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style/index.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width,intcal-scale=0"/>
+</head>
+<body>
+    <div class="page">
+        <!--头部菜单和logo-->
+        <div class="box_m">
+            <div class="menu">
+                <div class="rectangle">
+                    <div class="rec"></div>
+                    <div class="rec"></div>
+                    <div class="rec"></div>
+                </div>
+            </div>
+            <div class="menu_i"></div>
+        </div>
+
+        <div class="show_menu_list">
+            <div class="menu_close"><img src="image/close_white.png" alt=""/></div>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About me</a></li>
+                <li><a>Works</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Message</a></li>
+            </ul>
+        </div>
+        <div class="show_menu_shade"></div>
+
+        <div class="logo">CHEN</div>
+
+        <!--首页-->
+        <div class="box_one box hidden top">
+            <!--文字-->
+            <div class="title">
+                <div>
+                    <h1>Knowledge is infinite</h1>
+                    <h2>Welcome to my personal homepage.</h2>
+                </div>
+            </div>
+
+            <!--社交-->
+            <div class="social">
+                <div class="social_i">
+                    <div class="social_pic"><img src="image/wechat.png" alt=""></div>
+                    <div class="popUP">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="social_i">
+                    <div class="social_pic"><img src="image/qq.png" alt=""></div>
+                    <div class="popUP">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="social_i">
+                    <div class="social_pic"><img src="image/twitter.png" alt=""></div>
+                    <div class="popUP">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mouse"><img src="image/mouse.png" height="32" alt=""></div>
+
+            <!--首页背景-->
+            <div class="shade"></div>
+            <div class="pic_1"><div><img src="image/man.png" alt=""></div></div>
+            <div class="pic_2"><div><img src="image/light.png" alt=""></div></div>
+            <div class="pic_3"><img src="image/book.png" alt=""></div>
+            <div class="clock"><canvas id="clock"></canvas></div>
+        </div>
+
+        <!--个人介绍-->
+        <div class="box_two box">
+            <div class="center_about">About me</div>
+
+            <!--头像、姓名-->
+            <div class="head_por"><img src="image/yellowman.jpg" alt=""></div>
+            <h3 class="name">陈启立</h3>
+            <h4 class="occupation">WEB前端开发程序员</h4>
+
+            <!--信息-->
+            <div class="message">
+                <div class="mess">
+                    <img src="image/email.png" alt="">
+                    <div>
+                        <p>邮箱</p>
+                        <p>850108535@qq.com</p>
+                    </div>
+                </div>
+                <div class="mess">
+                    <img src="image/map.png" alt="">
+                    <div>
+                        <p>我来自</p>
+                        <p>广东.惠州</p>
+                    </div>
+                </div>
+                <div class="mess">
+                    <img src="image/school.png" alt="">
+                    <div>
+                        <p>毕业于</p>
+                        <p>广东省技师学院</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--技能-->
+            <div class="skill">
+                <div class="ski">
+                    <p>语言</p>
+                    <p>目前熟悉的语言，HTML5、CSS3、JavaScript、PHP</p>
+                    <div class="ski_pic">
+                        <div class="ski_pic_i">
+                            <img src="image/html.png" alt="">
+                            <div>HTML</div>
+                        </div>
+                        <div class="ski_pic_i">
+                            <img src="image/css.png" alt="">
+                            <div>CSS</div>
+                        </div>
+                        <div class="ski_pic_i">
+                            <img src="image/javascript.png" alt="">
+                            <div>Javascript</div>
+                        </div>
+                        <div class="ski_pic_i">
+                            <img src="image/php.png" alt="">
+                            <div>PHP</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ski">
+                    <p>框架</p>
+                    <p>目前熟悉的框架，Vue.js、Laravel</p>
+                    <div class="ski_pic">
+                        <div class="ski_pic_i">
+                            <img src="image/vue.png" alt="">
+                            <div>Vue</div>
+                        </div>
+                        <div class="ski_pic_i">
+                            <img src="image/laravel.png" alt="">
+                            <div>Laravel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--经历-->
+            <div class="experience">
+                <div class="ort">
+                    <div class="ort_left"></div>
+                    <div class="ort_right"></div>
+                </div>
+                <div class="cir">
+                    <div class="cir_i">
+                        <div class="cir_box_r">
+                            <div class="cir_rou"></div>
+                            <div class="cir_rou_i"></div>
+                            <span>2013.9</span>
+                        </div>
+                        <!--hover-->
+                        <div class="cir_f">
+                            <div class="cir_c">
+                                <div class="cir_pic"><img src="image/experience/school.png" alt=""></div>
+                                <div class="cir_text">
+                                    <div class="cir_text_box">
+                                        <p>
+                                            13年就读于广东省技师学院,就读专业：计算机应用
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cir_i">
+                        <div class="cir_box_r">
+                            <div class="cir_rou"></div>
+                            <div class="cir_rou_i"></div>
+                            <span>2015.7</span>
+                        </div>
+
+                        <div class="cir_f">
+                            <div class="cir_c">
+                                <div class="cir_pic"><img src="image/experience/design.png" alt=""></div>
+                                <div class="cir_text">
+                                    <div class="cir_text_box">
+                                        <p>
+                                            完成中职学业(考取计算机维修工证书)，晋升为高职生，就读专业：计算机广告制作
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cir_i">
+                        <div class="cir_box_r">
+                            <div class="cir_rou"></div>
+                            <div class="cir_rou_i"></div>
+                            <span>2016.3</span>
+                        </div>
+
+                        <div class="cir_f">
+                            <div class="cir_c">
+                                <div class="cir_pic"><img src="image/experience/Web%20design.png" alt=""></div>
+                                <div class="cir_text">
+                                    <div class="cir_text_box">
+                                        <p>
+                                            16年3月份参加Web Design(网站设计与制作)的培训,由此开始接触前端及后端开发
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cir_i">
+                        <div class="cir_box_r">
+                            <div class="cir_rou"></div>
+                            <div class="cir_rou_i"></div>
+                            <span>2017.7</span>
+                        </div>
+
+                        <div class="cir_f">
+                            <div class="cir_c">
+                                <div class="cir_pic"><img src="image/experience/graduate.png" alt=""></div>
+                                <div class="cir_text">
+                                    <div class="cir_text_box">
+                                        <p>
+                                            完成高职学业，并考取Photoshop高级工证
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cir_i">
+                        <div class="cir_box_r">
+                            <div class="cir_rou"></div>
+                            <div class="cir_rou_i"></div>
+                            <span>2017.8</span>
+                        </div>
+
+                        <div class="cir_f">
+                            <div class="cir_c">
+                                <div class="cir_pic"><img src="image/experience/practice.png" alt=""></div>
+                                <div class="cir_text">
+                                    <div class="cir_text_box">
+                                        <p>
+                                            找到实习公司，期间在公司为其设计官网
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--作品-->
+        <div class="box_three box">
+            <div class="center_works">Works</div>
+
+            <h1>作品</h1>
+            <div class="line" style="width:1.8rem"></div>
+            <p class="subtitle">此处展示了我在学校及工作中完成的一些项目和作品，希望能与大家交流。</p>
+
+            <div class="works">
+                <div class="works_list" onclick="works_mess(0)">
+                    <div><img src="image/works/carShow.png" alt=""></div>
+                    <div><span>carShow</span></div>
+                </div>
+                <div class="works_list" onclick="works_mess(1)">
+                    <div><img src="image/works/CPC.png" alt=""></div>
+                    <div><span>CPC</span></div>
+                </div>
+                <div class="works_list" onclick="works_mess(2)">
+                    <div><img src="image/works/Game_start.png" alt=""></div>
+                    <div><span>Sky Angel</span></div>
+                </div>
+                <div class="works_list">
+                    <div><img src="image/works/hotel.png" alt=""></div>
+                    <div><span>hotel</span></div>
+                </div>
+                <div class="works_list">
+                    <div><img src="image/works/CMS.png" alt=""></div>
+                    <div><span>CMS</span></div>
+                </div>
+                <div class="works_list">
+                    <div><img src="image/works/server-side.png" alt=""></div>
+                    <div><span>server-side</span></div>
+                </div>
+                <div class="works_list">
+                    <div><img src="image/works/tictactoe.png" alt=""></div>
+                    <div><span>tictactoe</span></div>
+                </div>
+                <div class="works_list">
+                    <div><img src="image/works/truck.png" alt=""></div>
+                    <div><span>truck</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!--作品详细内容-->
+        <div class="works_message">
+            <div class="w_mess">
+                <div class="m_shade"></div>
+                <div class="m_mess">
+                    <div class="m_cloes"><img src="image/cloes.png" alt=""></div>
+                    <span>one</span>
+                </div>
+            </div>
+            <div class="w_mess">
+                <div class="m_shade"></div>
+                <div class="m_mess">
+                    <div class="m_cloes"><img src="image/cloes.png" alt=""></div>
+                    <span>two</span>
+                </div>
+            </div>
+            <div class="w_mess">
+                <div class="m_shade"></div>
+                <div class="m_mess">
+                    <div class="m_cloes"><img src="image/cloes.png" alt=""></div>
+                    <span>three</span>
+                </div>
+            </div>
+        </div>
+
+        <!--博客-->
+        <div class="box_hour box">
+            <div class="center_blogs">Blogs</div>
+            <h1>我的博客</h1>
+            <div class="line" style="width: 5.1rem;"></div>
+            <p class="subtitle">整理在项目中出现的问题与技巧，做些简要概述，与大家交流分享， 希望各位能提出自己的意见</p>
+
+            <div class="blog_box">
+                <div class="blog_list">
+                    <div class="b_tri"></div>
+                    <div class="b_top">
+                        <div class="b_label">
+                            <img src="image/label.png" alt="">
+                            <span>技术文章</span>
+                        </div>
+                        <span class="b_time">2018-4-10  9:30 am</span>
+                    </div>
+                    <div class="b_middle">
+                        <p class="b_title">深入理解MVC</p>
+                        <p class="b_text">MVC无人不知，可很多程序员对MVC的概念的理解似乎有误，换言之他们一直在错用MVC，尽管即使如此软件也能被写出来，然而软件内部代码的组织方式却是不科学的，这会影响到软件的可维护性、可移植性，代码的可重用性</p>
+                    </div>
+                    <div class="b_bottom"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="b_tri"></div>
+                    <div class="b_top">
+                        <div class="b_label">
+                            <img src="image/label.png" alt="">
+                            <span>技术文章</span>
+                        </div>
+                        <span class="b_time">2018-4-10  9:30 am</span>
+                    </div>
+                    <div class="b_middle">
+                        <p class="b_title">深入理解MVC</p>
+                        <p class="b_text">MVC无人不知，可很多程序员对MVC的概念的理解似乎有误，换言之他们一直在错用MVC，尽管即使如此软件也能被写出来，然而软件内部代码的组织方式却是不科学的，这会影响到软件的可维护性、可移植性，代码的可重用性</p>
+                    </div>
+                    <div class="b_bottom"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="b_tri"></div>
+                    <div class="b_top">
+                        <div class="b_label">
+                            <img src="image/label.png" alt="">
+                            <span>技术文章</span>
+                        </div>
+                        <span class="b_time">2018-4-10  9:30 am</span>
+                    </div>
+                    <div class="b_middle">
+                        <p class="b_title">深入理解MVC</p>
+                        <p class="b_text">MVC无人不知，可很多程序员对MVC的概念的理解似乎有误，换言之他们一直在错用MVC，尽管即使如此软件也能被写出来，然而软件内部代码的组织方式却是不科学的，这会影响到软件的可维护性、可移植性，代码的可重用性</p>
+                    </div>
+                    <div class="b_bottom"></div>
+                </div>
+
+                <div class="blog_cut">
+                    <div class="trigger"></div>
+                    <div class="b_raw"></div>
+                    <div class="b_raw"></div>
+                    <div class="b_raw"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--留言-->
+        <div class="box_five box">
+            <div class="center_message">Message</div>
+            <h1>给我留言吧</h1>
+            <div class="line" style="width: 6.4rem;"></div>
+            <p class="subtitle">大家可以通过此处的留言板给我留言，各位的消息将会通过邮件的形式发送给我，我会尽快回复你的信息</p>
+
+            <form class="leave">
+                <input type="text" name="name" placeholder="您的姓名..." class="write">
+                <input type="text" name="email" placeholder="您的邮箱..." class="write">
+                <textarea placeholder="在这里写下您的留言信息..." class="write" name="message"></textarea>
+                <div class="l_send">
+                    <div class="l_box">
+                        <input type="submit" value="发送您的信息" id="send">
+                        <div class="l_rec"></div>
+                        <div class="l_bor"></div>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/cut.js"></script>
+    <script src="js/result.js"></script>
+</body>
+</html>
